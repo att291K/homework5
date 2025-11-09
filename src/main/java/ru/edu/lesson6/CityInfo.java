@@ -18,4 +18,16 @@ public class CityInfo {
         this.name = name;
         this.position = position;
     }
+
+    public String getName (){
+        return name;
+    }
+    public GeoPosition getPosition(){
+        return position;
+    }
+
+
+    public String toString(){
+        return name + " " +position.toString();
+    }
 }
